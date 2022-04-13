@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="" app:showAsAction="ifRoom" android:icon="@drawable/menu">
+        <menu>
+            <item
+                android:id="@+id/plus"
+                android:icon="@drawable/more"
+                android:title="Publicar" />
+
+        <item android:id="@+id/post" android:title="Publicaciones" android:icon="@drawable/pub" />
+        <item android:id="@+id/friends" android:title="Amigos" android:icon="@drawable/friend" />
+        <item android:id="@+id/setting" android:title="Configuraciones" android:icon="@drawable/config" />
+        <item android:id="@+id/out" android:title="Salir" />
+        </menu>
+    </item>
+</menu>
